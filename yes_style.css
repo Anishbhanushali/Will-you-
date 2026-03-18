@@ -21,11 +21,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-.footers {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.owner {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-bottom: 0px;
 }

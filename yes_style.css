@@ -5,37 +5,32 @@ body {
     height: 100vh;
     background-color: rgb(239, 33, 143);
 }
-.gif_container {
+
+.container {
     display: flex;
-    flex-direction: column;    
-    justify-content: center;
+    flex-direction: column;   /* 👈 sabko vertical karega */
     align-items: center;
 }
+
 .header_text {
     font-family: 'Lato';
     font-size: 50px;
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin: 20px 0;
 }
 
 .gif_container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;   /* 👈 image + owner neeche neeche */
     align-items: center;
 }
+
 .owner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Lato';
     font-size: 20px;
     font-weight: bold;
     color: white;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 10px;
 }

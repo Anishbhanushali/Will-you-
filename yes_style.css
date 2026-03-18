@@ -5,7 +5,12 @@ body {
     height: 100vh;
     background-color: rgb(239, 33, 143);
 }
-
+.gif_container {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
 .header_text {
     font-family: 'Lato';
     font-size: 50px;
